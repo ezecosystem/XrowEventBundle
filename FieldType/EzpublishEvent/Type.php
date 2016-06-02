@@ -4,7 +4,7 @@
  *
  */
 
-namespace xrow\EzpublishEventBundle\FieldType\EzpublishEvent;
+namespace Xrow\EzpublishEventBundle\FieldType\EzpublishEvent;
 
 use eZ\Publish\Core\FieldType\FieldType;
 use eZ\Publish\Core\FieldType\Value as BaseValue;

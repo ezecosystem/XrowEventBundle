@@ -2,7 +2,7 @@
 /**
  * File containing the LegacyConverter class.
  */
-namespace xrow\EzpublishEventBundle\FieldType\EzpublishEvent;
+namespace Xrow\EzpublishEventBundle\FieldType\EzpublishEvent;
 
 use eZ\Publish\Core\Persistence\Legacy\Content\FieldValue\Converter;
 use eZ\Publish\Core\Persistence\Legacy\Content\StorageFieldDefinition;

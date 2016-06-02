@@ -13,6 +13,6 @@
         }
     ],
     "autoload": {
-        "psr-4": { "xrow\\EzpublishEventBundle\\": ""}
+        "psr-4": { "Xrow\\EzpublishEventBundle\\": ""}
     }
 }
