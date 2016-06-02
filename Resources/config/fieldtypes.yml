@@ -1,0 +1,16 @@
+parameters:
+# ezpublishevent
+    ezpublish_event_types.ezpublishevent.class: xrow\EzpublishEventBundle\FieldType\EzpublishEvent\Type
+    ezpublish_event_types.ezpublishevent.converter.class: xrow\EzpublishEventBundle\FieldType\EzpublishEvent\EzpublishEventConverter
+
+services:
+# ezpublishevent
+    ezpublish_event_types.ezpublishevent:
+        class: %ezpublish_event_types.ezpublishevent.class%
+        parent: ezpublish.fieldType
+        tags:
+            - {name: ezpublish.fieldType, alias: ezpublishevent}
+    ezpublish_event_types.ezpublishevent.converter:
+        class: %ezpublish_event_types.ezpublishevent.converter.class%
+        tags:
+            - {name: ezpublish.storageEngine.legacy.converter, alias: ezpublishevent}
