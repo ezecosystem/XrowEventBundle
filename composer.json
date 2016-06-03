@@ -1,5 +1,5 @@
 {
-    "name": "xrow/ezpublishevent-bundle",
+    "name": "xrow/event-bundle",
     "description": "Fixes custom xrow datatypes ezpublishevent for eZ5.",
     "type": "symfony-bundle",
     "homepage": "http://www.xrow.de",
@@ -13,6 +13,6 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Xrow\\EzpublishEventBundle\\": ""}
+        "psr-4": { "Xrow\\EventBundle\\": ""}
     }
 }

@@ -1,7 +1,7 @@
 parameters:
 # ezpublishevent
-    ezpublish_event_types.ezpublishevent.class: Xrow\EzpublishEventBundle\FieldType\EzpublishEvent\Type
-    ezpublish_event_types.ezpublishevent.converter.class: Xrow\EzpublishEventBundle\FieldType\EzpublishEvent\EzpublishEventConverter
+    ezpublish_event_types.ezpublishevent.class: Xrow\EventBundle\FieldType\EzpublishEvent\Type
+    ezpublish_event_types.ezpublishevent.converter.class: Xrow\EventBundle\FieldType\EzpublishEvent\EzpublishEventConverter
 
 services:
 # ezpublishevent

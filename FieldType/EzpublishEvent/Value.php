@@ -1,9 +1,5 @@
 <?php
-/**
- * File containing the XrowFormGenerator Value class
- */
-
-namespace Xrow\EzpublishEventBundle\FieldType\EzpublishEvent;
+namespace Xrow\EventBundle\FieldType\EzpublishEvent;
 
 use eZ\Publish\Core\FieldType\Value as BaseValue;
 

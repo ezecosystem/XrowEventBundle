@@ -1,6 +1,6 @@
 <?php
 
-namespace Xrow\EzpublishEventBundle\DependencyInjection;
+namespace Xrow\EventBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
