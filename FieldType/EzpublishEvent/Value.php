@@ -3,7 +3,7 @@
  * File containing the XrowFormGenerator Value class
  */
 
-namespace Xrow\FieldTypesBundle\FieldType\EzpublishEvent;
+namespace Xrow\EzpublishEventBundle\FieldType\EzpublishEvent;
 
 use eZ\Publish\Core\FieldType\Value as BaseValue;
 
